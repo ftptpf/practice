@@ -6,6 +6,13 @@ public class Test {
         a = j;
         b = i;
     }
+    Test(int i) {
+        a = i;
+    }
+    Test incrByTen() {
+        Test temp = new Test(a + 10);
+        return temp;
+    }
     boolean equalTo(Test o) {
         if(o.a == a && o.b == b) {
             return true;
