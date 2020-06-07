@@ -9,6 +9,14 @@ class Box {
         height = h;
         depth = d;
     }
+    Box() {
+        weight = -1;
+        height = -1;
+        depth = -1;
+    }
+    Box(double len) {
+        weight = height = depth = len;
+    }
     double volume() {
         return weight*height*depth;
     }
