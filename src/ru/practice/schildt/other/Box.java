@@ -9,6 +9,11 @@ class Box {
         height = h;
         depth = d;
     }
+    Box(Box ob) {
+        weight = ob.weight;
+        height = ob.height;
+        depth = ob.depth;
+    }
     Box() {
         weight = -1;
         height = -1;
