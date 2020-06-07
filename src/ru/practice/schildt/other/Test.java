@@ -13,4 +13,12 @@ public class Test {
             return false;
         }
     }
+    void meth(int i, int j) {
+        i *= 2;
+        j /= 2;
+    }
+    void meth(Test o) {
+        o.b *= 2;
+        o.a /= 2;
+    }
 }
