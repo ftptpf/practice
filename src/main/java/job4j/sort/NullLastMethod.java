@@ -1,4 +1,4 @@
-package main.java.job4j.sort;
+package job4j.sort;
 
 import java.util.Comparator;
 
