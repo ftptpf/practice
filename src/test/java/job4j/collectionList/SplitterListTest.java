@@ -1,4 +1,4 @@
-package job4j.collection;
+package job4j.collectionList;
 
 import org.junit.Test;
 
