@@ -49,14 +49,26 @@ public class ThenComparingMethod {
         }
     }
 
+    /**
+     * Метод упорядочивает пользователей сначала по возрастанию по имени, а потом по убыванию по возрасту.
+     * @return
+     */
     public static Comparator<User> thenComparing() {
         return ascByName().thenComparing(descByAge());
     }
 
+    /**
+     * Метод упорядочивает пользователей по имени по возрастанию.
+     * @return
+     */
     public static Comparator<User> ascByName() {
         return Comparator.naturalOrder();
     }
 
+    /**
+     * Метод упорядочивает пользователей по возрасту по убыванию.
+     * @return
+     */
     public static Comparator<User> descByAge() {
         return Comparator.reverseOrder();
     }
