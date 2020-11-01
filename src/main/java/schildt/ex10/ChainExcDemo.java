@@ -1,4 +1,4 @@
-package main.java.schildt.ex10;
+package schildt.ex10;
 
 public class ChainExcDemo {
     static void demoProc() {
