@@ -1,4 +1,4 @@
-package job4j.lambda;
+package job4j.collectionMap;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package job4j.lambda;
+package job4j.collectionMap;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,7 +17,7 @@ public class ComputeIfPresent {
     public static Map<Integer, String> collectData(
             Map<Integer, String> name, Map<Integer, String> surname) {
         Map<Integer, String> nameSurname = new HashMap<>();
-        for (int i = 1; i < name.size() + 1; i++) {
+        for (int i = 1; i <= name.size(); i++) {
             nameSurname.put(i, name.get(i)); // добавляем пару ключь - значение (имя) в отображение.
             int z = i;
             nameSurname.computeIfPresent(i, (key, value) -> name.get(z) + " " + surname.get(z)); // к существующей паре
