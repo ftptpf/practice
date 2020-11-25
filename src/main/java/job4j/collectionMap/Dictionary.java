@@ -10,8 +10,8 @@ public class Dictionary {
      * @return
      */
     public static Map<String, List<String>> collectData(String[] strings) {
-        Map<String, List<String>> rsl = new HashMap<>();
-        Set<String> keySet = new HashSet<>();
+        Map<String, List<String>> rsl = new LinkedHashMap<>();
+        Set<String> keySet = new LinkedHashSet<>();
         List<String> secondList = new ArrayList<>();
 
         for (String s : strings) { // перебираем массив строк
