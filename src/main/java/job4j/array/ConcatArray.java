@@ -2,7 +2,7 @@ package job4j.array;
 
 public class ConcatArray {
     /**
-     * Метод определяет общий размер двух массивов.
+     * Метод определяет общий размер двух массивов..
      * @param a
      * @param b
      * @return
