@@ -10,7 +10,7 @@ public class CopyFile {
         FileInputStream fin = null;
         FileOutputStream fout = null;
 
-        // Сначала нужно убедится что указаны имена обоих файлов
+        // Сначала нужно убедиться что указаны имена обоих файлов
         if (args.length != 2) {
             System.out.println("Использование: CopyFile откуда куда");
         }
