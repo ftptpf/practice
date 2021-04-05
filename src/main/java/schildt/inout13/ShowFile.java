@@ -28,10 +28,8 @@ public class ShowFile {
                     System.out.print((char) i);
                }
             } while (i != -1);
-        } catch (FileNotFoundException e) {
-            System.out.println("Файл не найден.");
         } catch (IOException e) {
-            System.out.println("Произошла ошибка ввода-вывода.");
+            System.out.println("Ошибка ввода-вывода.");
         } finally {
             // закрыть файл в любом случае
             try {
