@@ -1,6 +1,8 @@
 package job4j.array;
 
 import org.junit.Test;
+import ru.practice.job4j.array.ConcatArray;
+
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 

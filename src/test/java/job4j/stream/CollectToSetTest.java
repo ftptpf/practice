@@ -1,6 +1,8 @@
 package job4j.stream;
 
 import org.junit.Test;
+import ru.practice.job4j.stream.CollectToSet;
+
 import java.util.Set;
 import static org.junit.Assert.*;
 

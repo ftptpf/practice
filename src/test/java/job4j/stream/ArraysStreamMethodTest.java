@@ -1,6 +1,7 @@
 package job4j.stream;
 
 import org.junit.Test;
+import ru.practice.job4j.stream.ArraysStreamMethod;
 
 import static org.junit.Assert.*;
 

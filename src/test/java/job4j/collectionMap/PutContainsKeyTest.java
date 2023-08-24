@@ -5,7 +5,8 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-import job4j.collectionMap.PutContainsKey.User;
+import ru.practice.job4j.collectionMap.PutContainsKey;
+import ru.practice.job4j.collectionMap.PutContainsKey.User;
 
 import java.util.List;
 import java.util.Map;

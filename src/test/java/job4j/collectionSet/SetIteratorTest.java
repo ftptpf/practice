@@ -1,6 +1,7 @@
 package job4j.collectionSet;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionSet.SetIterator;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

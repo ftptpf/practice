@@ -1,6 +1,7 @@
 package job4j.collectionList;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionList.ArProgression;
 
 import java.util.List;
 

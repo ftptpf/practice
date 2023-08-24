@@ -1,6 +1,8 @@
 package job4j.stream;
 
 import org.junit.Test;
+import ru.practice.job4j.stream.CollectToMapWhenDublicate;
+
 import java.util.List;
 import java.util.Map;
 import static org.junit.Assert.*;

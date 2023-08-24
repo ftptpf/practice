@@ -2,6 +2,7 @@ package job4j.sort;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.practice.job4j.sort.SortMap;
 
 import java.util.Map;
 import java.util.TreeMap;

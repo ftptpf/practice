@@ -1,6 +1,7 @@
 package other;
 
 import org.junit.Test;
+import ru.practice.other.arrayDoubleIterator;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.*;

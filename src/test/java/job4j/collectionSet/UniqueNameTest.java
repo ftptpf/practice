@@ -1,13 +1,14 @@
 package job4j.collectionSet;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionSet.UniqueName;
 
 import java.util.List;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-import static job4j.collectionSet.UniqueName.User;
+import static ru.practice.job4j.collectionSet.UniqueName.User;
 
 public class UniqueNameTest {
 

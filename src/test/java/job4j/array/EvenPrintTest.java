@@ -1,6 +1,7 @@
 package job4j.array;
 
 import org.junit.Test;
+import ru.practice.job4j.array.EvenPrint;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;

@@ -1,6 +1,7 @@
 package job4j.collectionList;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionList.RemoveIf;
 
 import java.util.ArrayList;
 import java.util.List;

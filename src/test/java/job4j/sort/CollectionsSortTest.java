@@ -2,6 +2,7 @@ package job4j.sort;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.practice.job4j.sort.CollectionsSort;
 
 import java.util.Arrays;
 import java.util.List;
