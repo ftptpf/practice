@@ -1,6 +1,7 @@
 package job4j.collectionSet;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionSet.Firewall;
 
 import java.util.Set;
 

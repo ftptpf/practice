@@ -1,6 +1,7 @@
 package job4j.collectionMap;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionMap.Dictionary;
 
 import java.util.List;
 import java.util.Map;

@@ -1,6 +1,7 @@
 package job4j.sort;
 
 import org.junit.Test;
+import ru.practice.job4j.sort.ThenComparingMethod;
 
 import java.util.Arrays;
 import java.util.List;

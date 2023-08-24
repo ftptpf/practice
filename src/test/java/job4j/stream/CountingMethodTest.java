@@ -1,10 +1,12 @@
 package job4j.stream;
 
 import org.junit.Test;
+import ru.practice.job4j.stream.CountingMethod;
+
 import java.util.List;
 import java.util.Map;
 import static org.junit.Assert.*;
-import static job4j.stream.CountingMethod.*;
+import static ru.practice.job4j.stream.CountingMethod.*;
 
 public class CountingMethodTest {
 

@@ -1,6 +1,8 @@
 package job4j.stream;
 
 import org.junit.Test;
+import ru.practice.job4j.stream.StreamIterate;
+
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 import static org.hamcrest.CoreMatchers.is;

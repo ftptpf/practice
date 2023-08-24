@@ -1,6 +1,7 @@
 package job4j.lambda;
 
 import org.junit.Test;
+import ru.practice.job4j.lambda.MRSupplier;
 
 import java.util.function.Supplier;
 

@@ -1,6 +1,7 @@
 package job4j.lambda;
 
 import org.junit.Test;
+import ru.practice.job4j.lambda.MRFunction;
 
 import java.util.function.Function;
 

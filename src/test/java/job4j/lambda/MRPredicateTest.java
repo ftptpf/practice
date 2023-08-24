@@ -1,6 +1,7 @@
 package job4j.lambda;
 
 import org.junit.Test;
+import ru.practice.job4j.lambda.MRPredicate;
 
 import java.util.function.Predicate;
 

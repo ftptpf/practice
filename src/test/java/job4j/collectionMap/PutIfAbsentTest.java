@@ -8,7 +8,8 @@ import java.util.Map;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-import job4j.collectionMap.PutIfAbsent.User;
+import ru.practice.job4j.collectionMap.PutIfAbsent;
+import ru.practice.job4j.collectionMap.PutIfAbsent.User;
 
 public class PutIfAbsentTest {
 

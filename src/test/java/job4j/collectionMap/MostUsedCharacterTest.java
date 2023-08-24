@@ -1,6 +1,7 @@
 package job4j.collectionMap;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionMap.MostUsedCharacter;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;

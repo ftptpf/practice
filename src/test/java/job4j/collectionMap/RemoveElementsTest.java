@@ -1,6 +1,7 @@
 package job4j.collectionMap;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionMap.RemoveElements;
 
 import java.util.HashMap;
 import java.util.List;
@@ -9,7 +10,7 @@ import java.util.Map;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-import static job4j.collectionMap.RemoveElements.User;
+import static ru.practice.job4j.collectionMap.RemoveElements.User;
 
 public class RemoveElementsTest {
 

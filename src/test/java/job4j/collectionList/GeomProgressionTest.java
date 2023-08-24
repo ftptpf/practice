@@ -1,6 +1,7 @@
 package job4j.collectionList;
 
 import org.junit.Test;
+import ru.practice.job4j.collectionList.GeomProgression;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;

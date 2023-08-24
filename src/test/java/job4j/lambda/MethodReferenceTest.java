@@ -2,6 +2,7 @@ package job4j.lambda;
 
 import org.junit.Assert;
 import org.junit.Test;
+import ru.practice.job4j.lambda.MethodReference;
 
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
