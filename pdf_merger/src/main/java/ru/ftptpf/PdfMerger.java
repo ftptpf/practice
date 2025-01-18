@@ -1,44 +1,38 @@
 package ru.ftptpf;
 
 import org.apache.pdfbox.multipdf.PDFMergerUtility;
-import org.apache.pdfbox.pdmodel.PDDocument;
 
+import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.util.List;
 
 /**
  * Объединение нескольких pdf-файлов в один
  * В качестве первого аргумента передается название объединенного файла,
- * все последующие аргументы это файлы которые нужно будет объединить
+ * все последующие аргументы это файлы которые нужно будет объединить.
+ * Исходные и объединенные файлы должны будут находиться в pdf_merger/src/main/resources
  */
 public class PdfMerger {
 
     public static void main(String[] args) throws IOException {
-        if (args.length < 2) {
-            System.out.println("Должно быть как минимум три файла в качестве аргументов.");
-            return;
+        if (args.length < 3) {
+            throw new IllegalArgumentException("Неверное количество переданных аргументов. "
+                    + "Должен быть указан 1 итоговый фай и минимум 2 которые будут объединены.");
         }
-        String outputFilePath = args[0];
-        List<String> inputFiles = List.of(args).subList(1, args.length);
 
-        mergePdfFile(outputFilePath, inputFiles);
-    }
+        File outputFile = new File(args[0]);
+        List<File> files = List.of(args).subList(1, args.length).stream()
+                .map(File::new)
+                .toList();
 
-    private static void mergePdfFile(String outputFilePath, List<String> inputFiles) throws IOException {
-        PDDocument resultDocument = new PDDocument();
         PDFMergerUtility mergerUtility = new PDFMergerUtility();
+        mergerUtility.setDestinationFileName(outputFile.toString());
 
-        for (String file : inputFiles) {
-            PDDocument document = new PDDocument();
-            document.save(file);
-
-            mergerUtility.appendDocument(resultDocument, document);
+        for (File file : files) {
+            mergerUtility.addSource(file);
         }
 
-        Files.createDirectories(Paths.get(outputFilePath).getParent());
-        resultDocument.save(outputFilePath);
-        resultDocument.close();
+        mergerUtility.mergeDocuments(null);
+        System.out.println("Объединение файлов завершено");
     }
 }
